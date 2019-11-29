@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface')
+
+$family-secondary: 'Abril Fatface', cursive
+$turquoise: hsl(200, 90%, 29%)
+// $cyan: #b6cbe0
+// $red: #e76f51
+// $orange: #f4a261
+// $yellow: #e9c46a
+$link: hsl(205, 79%, 41%)
+$green: hsl(86, 33%, 53%)
+// $blue: #264683
+// $purple: #3b3355
+
+$size-6: 0.9rem
+
+@import "../node_modules/bulma/bulma"
+@import "spacing"
+
+img[alt="Profile picture"],
+img[alt="About picture"]
+  display: block
+  margin: 0 auto
+  height: 200px
+
+img.thumb
+  width: 150px
+  box-shadow: 0 0 10px 0 #aaa
+
+html
+  background-color: hsl(13, 18%, 69%)
+
+.content em,
+.advance
+  white-space: nowrap
+  font-size: 90%
+  font-style: normal
+  font-family: 'Impact', Arial, Helvetica, sans-serif

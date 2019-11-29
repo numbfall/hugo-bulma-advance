@@ -1,0 +1,29 @@
+<meta charset="utf-8">
+
+<title>
+    {{ .Title }}
+</title>
+
+{{ if isset .Params "description" }}
+<meta name="description" content="{{ .Params.description }}">
+{{ else }}
+<meta name="description" content="{{ .Site.Params.description }}">
+{{ end }}
+
+<meta name="author" content="{{ .Site.Params.author }}">
+<meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
+
+{{ hugo.Generator }}
+
+<link rel="canonical" href="{{ .Permalink | absLangURL }}">
+
+{{ partial "icons" . }}
+
+{{ if .Site.IsServer }}
+    {{ .Scratch.Set "config" "assets/configs/development" }}
+{{ else }}
+    {{ .Scratch.Set "config" "assets/configs/production" }}
+{{ end }}
+
+{{ $style := resources.Get "styles.sass" | toCSS (dict "targetPath" "css/styles.css" "outputStyle" "compressed" "enableSourceMap" false) | postCSS (dict "config" (.Scratch.Get "config") "noMap" true) | minify }}
+<link rel="stylesheet" href="{{ $style.Permalink | relURL }}">
