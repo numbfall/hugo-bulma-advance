@@ -1,6 +1,0 @@
-baseURL = "/"
-languageCode = "en-us"
-title = "A D V A N C E"
-enableEmoji = true
-enableRobotsTXT = true
-disableKinds = ["taxonomy", "taxonomyTerm", "robotsTXT", "sitemap", "RSS"]
