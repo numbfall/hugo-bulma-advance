@@ -8,7 +8,7 @@ module.exports = {
             ]
         }),
         autoprefixer({
-            browsers: [
+            browserlist: [
                 "last 2 versions"
             ]
         })
