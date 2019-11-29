@@ -1,9 +1,10 @@
 {{ define "main" }}
-<div class="columns">
+    <div class="columns">
         <div class="column has-padding-3">
             <div class="content">
                 {{ partial "main-contact" . }}
             </div>
         </div>
-</div>
+    </div>
+    {{ partial "breadcrumbs" . }}
 {{ end }}

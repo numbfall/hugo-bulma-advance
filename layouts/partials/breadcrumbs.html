@@ -1,11 +1,14 @@
-<div class="section">
-    <div class="container">
-        <nav class="breadcrumb" aria-label="breadcrumb">
-        <ul>
-            <li><a href="{{ .Site.Home.RelPermalink }}">Home</a></li>
-            <li><a href="{{ .Parent.RelPermalink }}">{{ .Section | humanize }}</a></li>
-            <li class="is-active"><a href="{{ .Page.RelPermalink }}" aria-current="page">{{ .Title }}</a></li>
-        </ul>
-        </nav>
-    </div>
-</div>
+<nav class="breadcrumb has-padding-left-2 has-padding-right-2" aria-label="breadcrumb">
+<ul class="is-size-7">
+    {{ if .IsHome}}
+    <li class="is-active"><a href="/">Home</a></li>
+    {{ else if .Parent.IsHome }}
+    <li><a href="/">Home</a></li>
+    <li class="is-active"><a href="{{ .RelPermalink }}" aria-current="page">{{ .Title }}</a></li>
+    {{ else if not .Parent.IsHome}}
+    <li><a href="/">Home</a></li>
+    <li><a href="{{ .CurrentSection.RelPermalink }}">{{ .Section | humanize }}</a></li>
+    <li class="is-active"><a href="{{ .RelPermalink }}" aria-current="page">{{ .Title }}</a></li>
+    {{ end }}
+</ul>
+</nav>

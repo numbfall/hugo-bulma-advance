@@ -1,5 +1,5 @@
 {{ define "main" }}
-<div class="columns">
+    <div class="columns">
         <div class="column is-two-thirds">
             <div class="content has-padding-2">{{ .Content }}</div>
         </div>
@@ -7,4 +7,5 @@
             {{ partial "sidebar" }}
         </div>
     </div>
+    {{ partial "breadcrumbs" . }}
 {{ end }}
