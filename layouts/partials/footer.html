@@ -1,0 +1,24 @@
+<div class="has-padding-2">
+    <div class="columns">
+    <div class="column has-text-centered">
+        <a class="" href="{{ .Site.BaseURL }}">
+            <img src="/img/logo.svg" width="75px">
+        </a>
+    </div>
+    <div class="column">
+        <h3 class="has-text-weight-bold is-marginless has-padding-bottom-1">Popular courses</h3>
+        {{ range first 4 ((where site.RegularPages "Section" "courses")) }}
+            <a class="link is-size-6 has-text-black" href="{{ .Permalink }}">{{ .Title }}</a><br>
+        {{ end }}
+    </div>
+    <div class="column">
+        <h3 class="has-text-weight-bold is-marginless has-padding-bottom-1">Common links</h3>
+        {{ range where site.Pages "Section" "!=" "courses" }}
+            <a class="link is-size-6 has-text-black" href="{{ .Permalink }}">{{ .Title }}</a><br>
+        {{ end }}
+    </div>
+    </div>
+    <p class="is-size-7 is-marginless is-paddingless has-text-right">
+        Copyright &copy; 2019
+    </p>
+</div>

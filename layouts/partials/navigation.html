@@ -1,0 +1,27 @@
+<div class="navbar has-padding-left-1 is-size-6">
+    <a class="navbar-item {{ if eq .RelPermalink "/"}}has-background-success{{end}}" href="/">Home</a>
+
+    <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link {{ if eq .Section "courses"}}has-background-success{{end}}" href="/courses">
+              Courses
+            </a>
+    
+            <div class="navbar-dropdown is-hidden-touch">
+                {{ range first 4 ((where .Site.RegularPages "Type" "courses").ByParam "sort") }}
+                <a class="navbar-item" href="{{ .Permalink }}">{{ .Title }}</a>
+                {{ end }}
+                <hr class="navbar-divider">
+                {{ range last 2 ((where .Site.RegularPages "Type" "courses").ByParam "sort") }}
+                <a class="navbar-item" href="{{ .Permalink }}">{{ .Title }}</a>
+                {{ end }}
+                <hr class="navbar-divider">
+                <a class="navbar-item" href="/courses">See all</a>
+            </div>
+          </div>
+
+          <a class="navbar-item {{ if eq .RelPermalink "/about/"}}has-background-success{{end}}" href="/about">About</a>
+
+          <a class="navbar-item {{ if eq .RelPermalink "/why-us/"}}has-background-success{{end}}" href="/why-us">Why Us?</a>
+
+          <a class="navbar-item {{ if eq .RelPermalink "/contact/"}}has-background-success{{end}}" href="/contact">Contact</a>
+</div>

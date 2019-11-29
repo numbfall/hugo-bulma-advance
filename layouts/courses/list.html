@@ -1,0 +1,17 @@
+{{ define "main" }}
+    <div class="columns">
+        <div class="column is-two-thirds">
+            <div class="content has-padding-2">
+                {{ range (.Pages).ByParam "sort" }}
+                <div class="has-margin-bottom-1">
+                    <a class="" href="{{ .Permalink }}">{{ .Title }}</a>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+        <div class="column is-hidden-mobile">
+            {{ partial "sidebar" }}
+        </div>
+    </div>
+    
+{{ end }}
