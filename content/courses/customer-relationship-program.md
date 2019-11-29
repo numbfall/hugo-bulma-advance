@@ -4,7 +4,7 @@ sort: 3
 ---
 
 ## Customer relationship program
-###### For administration and front-desk staff
+##### For administration and front-desk staff
 
 ### Salient features
 - What is quality customer service? 

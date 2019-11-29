@@ -4,7 +4,7 @@ sort: 8
 ---
 
 ## Foundation course for teachers
-###### For pre-service and in-service teachers
+##### For pre-service and in-service teachers
 
 ### Salient features
 - Role of a Teacher and Qualities of a good Teacher 

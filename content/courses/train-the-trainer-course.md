@@ -4,7 +4,7 @@ sort: 2
 ---
 
 ## Train the trainer course
-###### For budding trainers
+##### For budding trainers
 
 ### Salient features
 - Essentials of Effective Training 

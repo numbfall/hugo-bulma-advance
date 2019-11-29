@@ -3,7 +3,7 @@ title: "School leadership program"
 sort: 4
 ---
 ## School leadership program
-###### For school principals and managers
+##### For school principals and managers
 
 ### Salient features
 - Educational Leadership 

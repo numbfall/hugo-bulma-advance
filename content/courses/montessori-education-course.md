@@ -4,7 +4,7 @@ sort: 9
 ---
 
 ## Montessori education course
-###### For pre-school teachers and mothers
+##### For pre-school teachers and mothers
 
 ### Salient features
 - Introduction to the Montessori Philosophy 

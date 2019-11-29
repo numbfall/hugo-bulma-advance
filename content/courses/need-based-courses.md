@@ -4,7 +4,7 @@ sort: 10
 ---
 
 ## Need based courses
-###### For schools and institutes
+##### For schools and institutes
 
 ### Salient features
 Content of the Course/Workshop will be decided on demand as per school/institute/company’s requirement

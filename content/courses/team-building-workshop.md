@@ -4,7 +4,7 @@ sort: 6
 ---
 
 ## Team-building workshop
-###### For members working in an organization
+##### For members working in an organization
 
 ### Salient features
 - The reality of team work and team player 

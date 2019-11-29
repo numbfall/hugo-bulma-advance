@@ -4,7 +4,7 @@ sort: 11
 ---
 
 ## Subject specific trainings
-###### For subject teachers in schools
+##### For subject teachers in schools
 
 ### Salient features
 - Pedagogy and instructional value of different approaches to teaching of a subject through enquiry based learning 

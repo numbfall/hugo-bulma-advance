@@ -3,7 +3,7 @@ title: "Early childhood education course"
 sort: 1
 ---
 ## Early childhood education course
-###### For pre-school teachers
+##### For pre-school teachers
 
 ### Salient features
 - Brain development research as the base of E.C.E. 

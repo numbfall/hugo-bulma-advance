@@ -4,7 +4,7 @@ sort: 7
 ---
 
 ## Professional development course
-###### For in-service school teachers
+##### For in-service school teachers
 
 ### Salient features
 - Meaning, basic concepts and models of Learning 

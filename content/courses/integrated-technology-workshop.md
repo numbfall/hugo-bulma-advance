@@ -4,7 +4,7 @@ sort: 5
 ---
 
 ## Integrated technology workshop
-###### For teachers and trainers
+##### For teachers and trainers
 
 ### Salient features
  - Integration of strategies that use technology to maximize student’s learning 
