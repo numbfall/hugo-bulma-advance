@@ -2,6 +2,7 @@ baseURL = "/"
 languageCode = "en-us"
 title = "A D V A N C E"
 enableRobotsTXT = true
+googleAnalytics = "UA-114282893-3"
 disableKinds = ["taxonomy", "taxonomyTerm", "robotsTXT", "sitemap", "RSS"]
 
 [Params]
