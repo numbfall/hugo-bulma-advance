@@ -2,7 +2,7 @@
     HUGO_VERSION = "0.60.1"
 
 [[redirects]]
-    from = "http://advance-consultancy.netlify.com/*"
-    to = "http://advance-consultancy.org/:splat"
+    from = "https://advance-consultancy.netlify.com/*"
+    to = "https://advance-consultancy.org/:splat"
     status = 301
     force = true
