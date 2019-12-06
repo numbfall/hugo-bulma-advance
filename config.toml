@@ -1,9 +1,9 @@
-baseURL = "/"
+baseURL = "https://advance-consultancy.org"
 languageCode = "en-us"
 title = "A D V A N C E"
 enableRobotsTXT = true
 googleAnalytics = "UA-114282893-3"
-disableKinds = ["taxonomy", "taxonomyTerm", "robotsTXT", "sitemap", "RSS"]
+disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
 
 [Params]
 description = "An international training facility for teachers and school leaders"

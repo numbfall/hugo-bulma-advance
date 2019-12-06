@@ -1,11 +1,13 @@
 {{ define "main" }}
     <div class="columns">
-        <div class="column is-two-thirds">
+        <div class="column">
             <div class="content has-padding-2">{{ .Content }}</div>
         </div>
-        <div class="column is-hidden-mobile">
-            {{ partial "sidebar" }}
+        {{ if isset .Params "sidebar"}}
+        <div class="column is-hidden-mobile is-one-third">
+            {{ partial "sidebar"}}
         </div>
+        {{ end }}
     </div>
     {{ partial "breadcrumbs" . }}
 {{ end }}

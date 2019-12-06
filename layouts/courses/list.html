@@ -1,6 +1,6 @@
 {{ define "main" }}
     <div class="columns">
-        <div class="column is-two-thirds">
+        <div class="column">
             <div class="content has-padding-2">
                 <h2 class="title is-4">Acquire a certificate in professional development</h2>
                 {{ range (.Pages).ByParam "sort" }}
@@ -9,9 +9,6 @@
                 </div>
                 {{ end }}
             </div>
-        </div>
-        <div class="column is-hidden-mobile">
-            {{ partial "sidebar" }}
         </div>
     </div>
     {{ partial "breadcrumbs" . }}

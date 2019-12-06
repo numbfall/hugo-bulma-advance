@@ -7,16 +7,18 @@
                 "position": 1,
                 "name": "Home",
                 "item": "{{ .Site.BaseURL }}"
-            },{
+            }{{ if not .IsHome}}{{ if not .IsNode}},{
                 "@type": "ListItem",
                 "position": 2,
                 "name": "{{ .Section | humanize }}",
                 "item": "{{ .Parent.Permalink }}"
-            },{
+            }{{ end }},{
                 "@type": "ListItem",
-                "position": 3,
+                "position": {{ if .IsNode }}2{{ else }}3{{ end }},
                 "name": "{{ .Title }}",
                 "item": "{{ .Permalink }}"
-            }]
+            }]{{ end }}
     }
 </script>
+
+
