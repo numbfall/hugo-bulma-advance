@@ -1,6 +1,7 @@
 ---
 title: "Train the trainer course"
 sort: 2
+featured: true
 ---
 
 ## Train the trainer course
