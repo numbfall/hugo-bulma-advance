@@ -1,7 +1,12 @@
 {{ define "main" }}
     <div class="columns">
         <div class="column">
-            <div class="content has-padding-2">{{ .Content }}</div>
+            <div class="content has-padding-2">
+                {{ .Content }}
+                {{ range .Pages.ByParam "sort" }}
+                    {{ .Render "li" }}
+                {{ end }}
+            </div>
         </div>
         {{ if isset .Params "sidebar"}}
         <div class="column is-hidden-mobile is-one-third">
