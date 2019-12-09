@@ -5,6 +5,9 @@ module.exports = {
         purgecss({
             content: [
                 'layouts/**/*.html'
+            ],
+            whitelist: [
+                "blockquote"
             ]
         }),
         autoprefixer({
