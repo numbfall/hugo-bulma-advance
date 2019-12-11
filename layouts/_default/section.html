@@ -1,7 +1,7 @@
 {{ define "main" }}
     <div class="columns">
         <div class="column">
-            <div class="content has-padding-2">
+            <div class="content has-padding-2 has-padding-1-touch">
                 {{ .Content }}
                 {{ range .Pages.ByParam "sort" }}
                     {{ .Render "li" }}
