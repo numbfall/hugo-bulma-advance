@@ -1,20 +1,30 @@
 <div class="has-padding-2">
     <div class="columns">
-    <div class="column has-text-centered">
+    <div class="column has-text-centered is-one-quarter">
         <a class="" href="{{ .Site.BaseURL }}">
             <img src="/img/logo.svg" width="75px">
         </a>
     </div>
     <div class="column">
-        <h3 class="has-text-weight-bold is-marginless has-padding-bottom-1">Popular courses</h3>
+        <h3 class="is-size-7 has-text-weight-bold is-marginless">Popular courses</h3>
         {{ range first 4 ((where site.RegularPages "Section" "courses").ByParam "featured") }}
-            <a class="link is-size-6 has-text-black" href="{{ .Permalink }}">{{ .Title }}</a><br>
+            <a class="is-size-7 link has-text-black" href="{{ .Permalink }}">{{ .Title }}</a><br>
         {{ end }}
     </div>
     <div class="column">
-        <h3 class="has-text-weight-bold is-marginless has-padding-bottom-1">Common links</h3>
+        <h3 class="is-size-7 has-text-weight-bold is-marginless">Other projects</h3>
+        <a class="is-size-7 link has-text-black" target="_blank" href="https://web.facebook.com/Mount-HIRA-Street-Children-School-372062566191109/" class="is-size-6">
+            Mount Hira School Facebook page
+        </a>
+        <br>
+        <a class="is-size-7 link has-text-black" target="_blank" href="https://faizeaam.org" class="is-size-6">
+            Faize-e-Aam Welfare Trust
+        </a>
+    </div>
+    <div class="column">
+        <h3 class="is-size-7 has-text-weight-bold is-marginless">Common links</h3>
         {{ range where site.Pages "Kind" "section" }}
-            <a class="link is-size-6 has-text-black" href="{{ .Permalink }}">{{ .Title }}</a><br>
+            <a class="is-size-7 link has-text-black" href="{{ .Permalink }}">{{ .Title }}</a><br>
         {{ end }}
     </div>
     </div>
