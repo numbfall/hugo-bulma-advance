@@ -1,5 +1,6 @@
 ---
 title: "Professional development course"
+description: Course for in-service school teachers
 sort: 7
 ---
 

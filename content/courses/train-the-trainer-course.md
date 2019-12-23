@@ -1,5 +1,6 @@
 ---
 title: "Train the trainer course"
+description: Course for budding trainers
 sort: 2
 featured: true
 ---

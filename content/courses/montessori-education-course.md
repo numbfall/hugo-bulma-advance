@@ -1,5 +1,6 @@
 ---
 title: "Montessori education course"
+description: Course for pre-school teachers and mothers
 sort: 9
 ---
 

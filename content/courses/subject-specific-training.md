@@ -1,5 +1,6 @@
 ---
 title: "Subject specific trainings"
+description: Course for subject teachers in schools
 sort: 11
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Customer relationship program"
+description: Course for administration and front-desk staff
 sort: 3
 ---
 

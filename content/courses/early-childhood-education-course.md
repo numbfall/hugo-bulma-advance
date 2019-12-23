@@ -1,5 +1,6 @@
 ---
 title: "Early childhood education course"
+description: Course for pre-school teachers
 sort: 1
 ---
 ## Early childhood education course

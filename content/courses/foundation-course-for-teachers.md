@@ -1,5 +1,6 @@
 ---
 title: "Foundation course for teachers"
+description: Course for pre-service and in-service teachers
 sort: 8
 ---
 

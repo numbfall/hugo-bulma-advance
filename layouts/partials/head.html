@@ -2,16 +2,8 @@
 
 <meta charset="utf-8">
 
-<title>
-    {{ .Title }} - ADVANCE consultancy
-</title>
-
-{{ if isset .Params "description" }}
-<meta name="description" content="{{ .Params.description }}">
-{{ else }}
-<meta name="description" content="{{ .Site.Params.description }}">
-{{ end }}
-
+<title>{{ .Title }} - ADVANCE consultancy</title>
+<meta name="description" content="{{ if isset .Params `description` }}{{ .Params.description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 <meta name="author" content="{{ .Site.Params.author }}">
 <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
 

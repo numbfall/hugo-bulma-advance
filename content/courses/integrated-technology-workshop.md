@@ -1,5 +1,6 @@
 ---
 title: "Integrated technology workshop"
+description: Course for teachers and trainers
 sort: 5
 ---
 

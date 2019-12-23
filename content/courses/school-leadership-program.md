@@ -1,5 +1,6 @@
 ---
 title: "School leadership program"
+description: Course for school principals and managers
 sort: 4
 ---
 ## School leadership program

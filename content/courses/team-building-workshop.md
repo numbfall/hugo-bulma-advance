@@ -1,5 +1,6 @@
 ---
 title: "Team-building workshop"
+description: Course for members working in an organization
 sort: 6
 ---
 

@@ -3,6 +3,7 @@
         <div class="column">
             <div class="content has-padding-2 has-padding-1-touch">{{ .Content }}</div>
         </div>
+        {{ if eq .Section `courses`}}{{ partial "structured-courses" . }}{{ end }}
     </div>
     {{ partial "breadcrumbs" . }}
 {{ end }}

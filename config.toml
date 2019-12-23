@@ -1,6 +1,6 @@
 baseURL = "https://advance-consultancy.org"
 languageCode = "en-us"
-title = "ADVANCE"
+title = "ADVANCE consultancy"
 enableRobotsTXT = true
 googleAnalytics = "UA-114282893-3"
 disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
