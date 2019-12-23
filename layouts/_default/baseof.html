@@ -22,6 +22,7 @@
     {{ block "main" . }}
     {{ end }}
     </div>
+    {{ partial "structured-breadcrumbs" . }}
 
     <footer class="has-background-grey-lighter">
         {{ partial "footer" . }}
@@ -29,7 +30,5 @@
 
     </div>
 </body>
-
-{{ partial "structured-breadcrumbs" . }}
 
 </html>
