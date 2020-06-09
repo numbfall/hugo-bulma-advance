@@ -1,2 +1,2 @@
 # hugo-bulma-advance
-site for ADVANCE consultancy
+site for ADVANCE education consultancy

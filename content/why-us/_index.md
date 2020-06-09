@@ -5,7 +5,7 @@ sidebar:
 
 ### Why Us?
 
-With the number of educational institutes on the rise, the scarcity of qualified and trained educators that are able to effectively fulfill the fundamental role of teachers as mentors for their students as well as cater to their spiritual and social grooming, is being direly felt by school managers. Keeping in mind this disparity, the establishment of a training facility that caters to fill this gap seemed essential, and hence the inception of *ADVANCE* **consultancy**.
+With the number of educational institutes on the rise, the scarcity of qualified and trained educators that are able to effectively fulfill the fundamental role of teachers as mentors for their students as well as cater to their spiritual and social grooming, is being direly felt by school managers. Keeping in mind this disparity, the establishment of a training facility that caters to fill this gap seemed essential, and hence the inception of *ADVANCE* **education consultancy**.
 
 ![contact us](/img/image(8).png)
 
