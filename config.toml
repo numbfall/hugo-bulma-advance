@@ -1,10 +1,10 @@
 baseURL = "https://advance-consultancy.org"
 languageCode = "en-us"
-title = "ADVANCE education consultancy"
+title = "ADVANCE education training consultancy"
 enableRobotsTXT = true
 googleAnalytics = "UA-114282893-3"
 disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
 
 [Params]
-description = "An international training facility for teachers and school leaders"
+description = "An international training facility for parents, teachers, and school leaders"
 author = "Ayesha Iqbal <ayeshaiq@gmail.com>"
